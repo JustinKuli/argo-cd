@@ -2,6 +2,7 @@ apiVersion: policy.open-cluster-management.io/v1
 kind: ConfigurationPolicy
 metadata:
   name: argo-healthchecks
+  namespace: local-cluster
 spec:
   remediationAction: inform
   severity: low
